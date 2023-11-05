@@ -1,0 +1,16 @@
+.header h1{
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+};
+
+.header p{
+    color: #5A5959;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 77%;
+};

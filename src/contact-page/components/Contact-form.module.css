@@ -1,0 +1,26 @@
+.inputTextArea{
+    position: relative;
+}
+
+.inputTextArea textarea{
+    border-radius: 0;
+}
+
+.inputTextArea label{
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    color: var(--grey);
+    transition: all 0.2s linear;
+}
+
+.inputTextArea textarea:is(:focus) + label{
+    top: -13px;
+    left: 10px;
+    background-color: var(--white);
+}
+
+.contactForm button{
+    float: right;
+    width: 220px;
+}

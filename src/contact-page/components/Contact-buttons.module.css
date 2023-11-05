@@ -1,0 +1,11 @@
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px; /* Add some space between the buttons */
+    justify-content: center; /* Center align the buttons horizontally */
+    padding: 20px;
+}
+
+.buttons button:last-child{
+    grid-column: span 2; /* Make the button span 2 columns for full width */
+}

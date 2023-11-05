@@ -1,0 +1,21 @@
+.inputContainer{
+    position: relative;
+}
+
+.inputContainer label{
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    color: var(--grey);
+    transition: all 0.2s linear;
+}
+
+.inputContainer input:is(:focus) + label{
+    top: -13px;
+    left: 10px;
+    background-color: var(--white);
+}
+
+.formInput{
+    border-radius: 0;
+}
